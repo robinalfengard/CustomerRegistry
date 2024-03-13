@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|c:\\c#\\malm\u00F6 universitet\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\Form1.cs",
+              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\Form1.cs",
+              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\Form1.cs [Design]",
+              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T16:12:44.247Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
