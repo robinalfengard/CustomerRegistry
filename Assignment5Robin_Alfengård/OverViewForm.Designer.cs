@@ -92,6 +92,7 @@
             addButton.TabIndex = 5;
             addButton.Text = "Add";
             addButton.UseVisualStyleBackColor = true;
+            addButton.Click += LoadMainForm;
             // 
             // editButton
             // 

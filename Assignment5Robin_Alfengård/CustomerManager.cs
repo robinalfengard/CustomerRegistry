@@ -11,7 +11,10 @@ namespace Assignment5Robin_Alfengård
         private List<Customer> customerList;
 
 
-
+        public CustomerManager()
+        {
+            customerList = new List<Customer>();    
+        }   
 
         public void addCustomer(Customer customer)
         {

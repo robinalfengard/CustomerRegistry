@@ -10,5 +10,25 @@ namespace Assignment5Robin_Alfengård
     internal class Customer
     {
         Contact contact;
+
+        public Customer(Contact contact)
+        {
+            this.contact = contact;
+        }
+
+        public Customer() { }
+        
+
+        
+
+        public Contact Contact
+        {
+            get
+            { return contact; }
+            set
+            {
+                contact = value;
+            }
+        }
     }
 }
