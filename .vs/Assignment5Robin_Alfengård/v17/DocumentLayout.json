@@ -3,42 +3,6 @@
   "WorkspaceRootPath": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|c:\\c#\\malm\u00F6 universitet\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\contactfiles\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|c:\\c#\\malm\u00F6 universitet\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|c:\\c#\\malm\u00F6 universitet\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|c:\\c#\\malm\u00F6 universitet\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\contactfiles\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|c:\\c#\\malm\u00F6 universitet\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\contactfiles\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\overviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\overviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,12 +11,48 @@
       "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\overviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|c:\\c#\\malm\u00F6 universitet\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\contactfiles\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|c:\\c#\\malm\u00F6 universitet\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\contactfiles\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\contactfiles\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|c:\\c#\\malm\u00F6 universitet\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\contactfiles\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\contactfiles\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\contactfiles\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\contactfiles\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|solutionrelative:assignment5robin_alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{530824A6-4FE8-4832-ACA2-EB9D5767217B}|Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj|C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\assignment5robin_alfeng\u00E5rd\\overviewform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,50 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddForm.cs",
-              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
-              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
-              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
-              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:37:35.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Phone.cs",
-              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Phone.cs",
-              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Phone.cs",
-              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Phone.cs",
-              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Phone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:27:44.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Email.cs",
-              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Email.cs",
-              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Email.cs",
-              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Email.cs",
-              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Email.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:27:41.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Country.cs",
               "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Country.cs",
@@ -130,45 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Contact.cs",
-              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Contact.cs",
-              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Contact.cs",
-              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Contact.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:27:38.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Address.cs",
-              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Address.cs",
-              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Address.cs",
-              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Address.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T10:52:01.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddForm.cs [Design]",
-              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
-              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
-              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs [Design]",
-              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T10:22:49.971Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "OverViewForm.cs [Design]",
               "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\OverViewForm.cs",
               "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\OverViewForm.cs",
@@ -180,46 +103,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "OverViewForm.cs",
               "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\OverViewForm.cs",
               "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\OverViewForm.cs",
               "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\OverViewForm.cs",
               "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\OverViewForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAIAwwEcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T10:21:33.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\Customer.cs",
-              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\Customer.cs",
-              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\Customer.cs",
-              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\Customer.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T10:51:20.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CustomerManager.cs",
               "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\CustomerManager.cs",
               "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\CustomerManager.cs",
               "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\CustomerManager.cs",
               "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\CustomerManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T10:51:34.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "AddForm.cs [Design]",
+              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
+              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
+              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs [Design]",
+              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:22:49.971Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Contact.cs",
+              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Contact.cs",
+              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Contact.cs",
+              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:27:38.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Address.cs",
+              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Address.cs",
+              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Address.cs",
+              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:52:01.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Email.cs",
+              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Email.cs",
+              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Email.cs",
+              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Email.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:27:41.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Phone.cs",
+              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Phone.cs",
+              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Phone.cs",
+              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Phone.cs",
+              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\ContactFiles\\Phone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:27:44.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddForm.cs",
+              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
+              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
+              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
+              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\AddForm.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwEYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:37:35.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\Customer.cs",
+              "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\Customer.cs",
+              "ToolTip": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\Customer.cs",
+              "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:51:20.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Inputvalidator.cs",
               "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\Inputvalidator.cs",
               "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\Inputvalidator.cs",
@@ -227,8 +227,7 @@
               "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\Inputvalidator.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAA9wEMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:43:52.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T12:43:52.131Z"
             },
             {
               "$type": "Document",
@@ -243,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Assignment5Robin_Alfeng\u00E5rd.csproj",
               "DocumentMoniker": "C:\\C#\\Malm\u00F6 Universitet\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj",
               "RelativeDocumentMoniker": "Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj",
@@ -251,8 +250,7 @@
               "RelativeToolTip": "Assignment5Robin_Alfeng\u00E5rd\\Assignment5Robin_Alfeng\u00E5rd.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-18T10:51:43.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T10:51:43.606Z"
             },
             {
               "$type": "Document",

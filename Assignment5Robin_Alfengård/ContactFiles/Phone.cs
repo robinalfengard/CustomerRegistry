@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment5Robin_Alfengård.ContactFiles
 {
-    internal class Phone
+    public class Phone
     {
         private string phoneNumberHome;
         private string phoneNumberWork;

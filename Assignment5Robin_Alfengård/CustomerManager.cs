@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment5Robin_Alfengård
 {
-    internal class CustomerManager
+    public class CustomerManager
     {
         private List<Customer> customerList;
 
@@ -33,6 +33,11 @@ namespace Assignment5Robin_Alfengård
         public Customer getCustomerByIndex(int id)
         {
             return customerList[id];
+        }
+
+        public int getIndexOfCustomer(Customer customer)
+        {
+            return customerList.IndexOf(customer);
         }
 
 

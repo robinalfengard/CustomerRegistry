@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Assignment5Robin_Alfengård.ContactFiles
 {
-    internal class Address
+    public class Address
     {
         private string street;
         private string city;

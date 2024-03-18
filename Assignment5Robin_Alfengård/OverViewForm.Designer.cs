@@ -37,7 +37,7 @@
             editButton = new Button();
             deleteButton = new Button();
             contactDetailsLabel = new Label();
-            llistviewCustomerDetails = new ListView();
+            ExpandedCustomerInfoTextBox = new TextBox();
             SuspendLayout();
             // 
             // listviewContactInfo
@@ -47,11 +47,13 @@
             listviewContactInfo.Size = new Size(988, 623);
             listviewContactInfo.TabIndex = 0;
             listviewContactInfo.UseCompatibleStateImageBehavior = false;
+            listviewContactInfo.View = View.List;
+            listviewContactInfo.MouseClick += ShowExpandedCustomerInfoOnClick;
             // 
             // idLabel
             // 
             idLabel.AutoSize = true;
-            idLabel.Location = new Point(90, 51);
+            idLabel.Location = new Point(50, 51);
             idLabel.Name = "idLabel";
             idLabel.Size = new Size(28, 25);
             idLabel.TabIndex = 1;
@@ -60,7 +62,7 @@
             // firstNameLabel
             // 
             firstNameLabel.AutoSize = true;
-            firstNameLabel.Location = new Point(230, 51);
+            firstNameLabel.Location = new Point(206, 51);
             firstNameLabel.Name = "firstNameLabel";
             firstNameLabel.Size = new Size(238, 25);
             firstNameLabel.TabIndex = 2;
@@ -69,7 +71,7 @@
             // officePhoneLabel
             // 
             officePhoneLabel.AutoSize = true;
-            officePhoneLabel.Location = new Point(612, 51);
+            officePhoneLabel.Location = new Point(578, 51);
             officePhoneLabel.Name = "officePhoneLabel";
             officePhoneLabel.Size = new Size(114, 25);
             officePhoneLabel.TabIndex = 3;
@@ -78,7 +80,7 @@
             // officeMailLabel
             // 
             officeMailLabel.AutoSize = true;
-            officeMailLabel.Location = new Point(860, 51);
+            officeMailLabel.Location = new Point(853, 51);
             officeMailLabel.Name = "officeMailLabel";
             officeMailLabel.Size = new Size(113, 25);
             officeMailLabel.TabIndex = 4;
@@ -92,7 +94,7 @@
             addButton.TabIndex = 5;
             addButton.Text = "Add";
             addButton.UseVisualStyleBackColor = true;
-            addButton.Click += LoadMainForm;
+            addButton.Click += LoadAddCustomerFormClick;
             // 
             // editButton
             // 
@@ -121,20 +123,22 @@
             contactDetailsLabel.TabIndex = 8;
             contactDetailsLabel.Text = "Contact Details";
             // 
-            // llistviewCustomerDetails
+            // ExpandedCustomerInfoTextBox
             // 
-            llistviewCustomerDetails.Location = new Point(1079, 96);
-            llistviewCustomerDetails.Name = "llistviewCustomerDetails";
-            llistviewCustomerDetails.Size = new Size(513, 612);
-            llistviewCustomerDetails.TabIndex = 9;
-            llistviewCustomerDetails.UseCompatibleStateImageBehavior = false;
+            ExpandedCustomerInfoTextBox.BorderStyle = BorderStyle.FixedSingle;
+            ExpandedCustomerInfoTextBox.Location = new Point(1082, 95);
+            ExpandedCustomerInfoTextBox.Multiline = true;
+            ExpandedCustomerInfoTextBox.Name = "ExpandedCustomerInfoTextBox";
+            ExpandedCustomerInfoTextBox.ReadOnly = true;
+            ExpandedCustomerInfoTextBox.Size = new Size(515, 624);
+            ExpandedCustomerInfoTextBox.TabIndex = 9;
             // 
             // OverViewForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1651, 837);
-            Controls.Add(llistviewCustomerDetails);
+            Controls.Add(ExpandedCustomerInfoTextBox);
             Controls.Add(contactDetailsLabel);
             Controls.Add(deleteButton);
             Controls.Add(editButton);
@@ -147,6 +151,7 @@
             Name = "OverViewForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Load += OverViewForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -162,6 +167,6 @@
         private Button editButton;
         private Button deleteButton;
         private Label contactDetailsLabel;
-        private ListView llistviewCustomerDetails;
+        private TextBox ExpandedCustomerInfoTextBox;
     }
 }

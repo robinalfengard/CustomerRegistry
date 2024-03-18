@@ -17,18 +17,20 @@ namespace Assignment5Robin_Alfengård
 
         private InputValidator validator;
         private CustomerManager customerManager;
-        public AddForm()
+        private OverViewForm overViewForm;
+        public AddForm(CustomerManager customerManager, OverViewForm overViewForm)
         {
             InitializeComponent();
             countrySelectionAdd.DataSource = Enum.GetValues(typeof(Country));
             validator = new InputValidator();
-            customerManager = new CustomerManager();
+            this.customerManager  = customerManager;
+            this.overViewForm = overViewForm;
         }
 
 
         private void AddForm_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void AddCustomer(object sender, EventArgs e)
@@ -58,7 +60,7 @@ namespace Assignment5Robin_Alfengård
 
             if(validator.ValidateEmailAdresses(privateMailInputAdd.Text, workMailInputAdd.Text))
             {
-                Email email = new Email(privateMailInputAdd.Text, workMailInputAdd.Text);
+                Email email = new Email(workMailInputAdd.Text, privateMailInputAdd.Text);
                 contact.Email = email;
             }
 
@@ -67,8 +69,8 @@ namespace Assignment5Robin_Alfengård
             {
                 customer.Contact = contact;
                 customerManager.addCustomer(customer);
-                MessageBox.Show(customerManager.getCustomerList().Count().ToString());
                 ResetAllFields();
+                overViewForm.UpdateListOfCustomers();
             }
                 
 
