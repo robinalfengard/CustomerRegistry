@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment5Robin_Alfengård.ContactFiles
 {
-    public enum Countries
+    public enum Country
     {
         Afghanistan,
         Algeria,

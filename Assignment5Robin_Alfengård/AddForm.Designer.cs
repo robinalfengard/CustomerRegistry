@@ -29,20 +29,21 @@
         private void InitializeComponent()
         {
             nameBoxAdd = new GroupBox();
-            firstNameLabel = new Label();
-            lastNameLabel = new Label();
-            firstNameInputAdd = new TextBox();
             lastNameInputAdd = new TextBox();
+            firstNameInputAdd = new TextBox();
+            lastNameLabel = new Label();
+            firstNameLabel = new Label();
             contactBoxAdd = new GroupBox();
+            privateMailInputAdd = new TextBox();
+            workMailInputAdd = new TextBox();
+            mailPrivateLabel = new Label();
+            mailWorkLAbel = new Label();
             cellPhoneInputAdd = new TextBox();
             homePhoneInputAdd = new TextBox();
             cellPhoneInput = new Label();
             homePhoneInput = new Label();
-            mailWorkLAbel = new Label();
-            mailPrivateLabel = new Label();
-            workMailInputAdd = new TextBox();
-            privateMailInputAdd = new TextBox();
             addressBoxAdd = new GroupBox();
+            countrySelectionAdd = new ComboBox();
             zipCodeIpnutAdd = new TextBox();
             countryAddLabel = new Label();
             zipCodeAddLabel = new Label();
@@ -50,7 +51,6 @@
             streetInputAdd = new TextBox();
             cityAddLabel = new Label();
             streetAddLabel = new Label();
-            countrySelectionAdd = new ComboBox();
             confrimAddButton = new Button();
             cancelAddButton = new Button();
             nameBoxAdd.SuspendLayout();
@@ -71,14 +71,21 @@
             nameBoxAdd.TabStop = false;
             nameBoxAdd.Text = "Name";
             // 
-            // firstNameLabel
+            // lastNameInputAdd
             // 
-            firstNameLabel.AutoSize = true;
-            firstNameLabel.Location = new Point(14, 43);
-            firstNameLabel.Name = "firstNameLabel";
-            firstNameLabel.Size = new Size(97, 25);
-            firstNameLabel.TabIndex = 2;
-            firstNameLabel.Text = "First Name";
+            lastNameInputAdd.BorderStyle = BorderStyle.FixedSingle;
+            lastNameInputAdd.Location = new Point(189, 102);
+            lastNameInputAdd.Name = "lastNameInputAdd";
+            lastNameInputAdd.Size = new Size(319, 31);
+            lastNameInputAdd.TabIndex = 5;
+            // 
+            // firstNameInputAdd
+            // 
+            firstNameInputAdd.BorderStyle = BorderStyle.FixedSingle;
+            firstNameInputAdd.Location = new Point(189, 43);
+            firstNameInputAdd.Name = "firstNameInputAdd";
+            firstNameInputAdd.Size = new Size(319, 31);
+            firstNameInputAdd.TabIndex = 4;
             // 
             // lastNameLabel
             // 
@@ -89,21 +96,14 @@
             lastNameLabel.TabIndex = 3;
             lastNameLabel.Text = "Last Name";
             // 
-            // firstNameInputAdd
+            // firstNameLabel
             // 
-            firstNameInputAdd.BorderStyle = BorderStyle.FixedSingle;
-            firstNameInputAdd.Location = new Point(189, 43);
-            firstNameInputAdd.Name = "firstNameInputAdd";
-            firstNameInputAdd.Size = new Size(319, 31);
-            firstNameInputAdd.TabIndex = 4;
-            // 
-            // lastNameInputAdd
-            // 
-            lastNameInputAdd.BorderStyle = BorderStyle.FixedSingle;
-            lastNameInputAdd.Location = new Point(189, 102);
-            lastNameInputAdd.Name = "lastNameInputAdd";
-            lastNameInputAdd.Size = new Size(319, 31);
-            lastNameInputAdd.TabIndex = 5;
+            firstNameLabel.AutoSize = true;
+            firstNameLabel.Location = new Point(14, 43);
+            firstNameLabel.Name = "firstNameLabel";
+            firstNameLabel.Size = new Size(97, 25);
+            firstNameLabel.TabIndex = 2;
+            firstNameLabel.Text = "First Name";
             // 
             // contactBoxAdd
             // 
@@ -121,6 +121,40 @@
             contactBoxAdd.TabIndex = 6;
             contactBoxAdd.TabStop = false;
             contactBoxAdd.Text = "Email and Phone";
+            // 
+            // privateMailInputAdd
+            // 
+            privateMailInputAdd.BorderStyle = BorderStyle.FixedSingle;
+            privateMailInputAdd.Location = new Point(189, 198);
+            privateMailInputAdd.Name = "privateMailInputAdd";
+            privateMailInputAdd.Size = new Size(319, 31);
+            privateMailInputAdd.TabIndex = 9;
+            // 
+            // workMailInputAdd
+            // 
+            workMailInputAdd.BorderStyle = BorderStyle.FixedSingle;
+            workMailInputAdd.Location = new Point(189, 148);
+            workMailInputAdd.Name = "workMailInputAdd";
+            workMailInputAdd.Size = new Size(319, 31);
+            workMailInputAdd.TabIndex = 8;
+            // 
+            // mailPrivateLabel
+            // 
+            mailPrivateLabel.AutoSize = true;
+            mailPrivateLabel.Location = new Point(16, 198);
+            mailPrivateLabel.Name = "mailPrivateLabel";
+            mailPrivateLabel.Size = new Size(129, 25);
+            mailPrivateLabel.TabIndex = 7;
+            mailPrivateLabel.Text = "E-Mail (Private)";
+            // 
+            // mailWorkLAbel
+            // 
+            mailWorkLAbel.AutoSize = true;
+            mailWorkLAbel.Location = new Point(14, 148);
+            mailWorkLAbel.Name = "mailWorkLAbel";
+            mailWorkLAbel.Size = new Size(118, 25);
+            mailWorkLAbel.TabIndex = 6;
+            mailWorkLAbel.Text = "E-Mail (Work)";
             // 
             // cellPhoneInputAdd
             // 
@@ -156,40 +190,6 @@
             homePhoneInput.TabIndex = 2;
             homePhoneInput.Text = "Home Phone";
             // 
-            // mailWorkLAbel
-            // 
-            mailWorkLAbel.AutoSize = true;
-            mailWorkLAbel.Location = new Point(14, 148);
-            mailWorkLAbel.Name = "mailWorkLAbel";
-            mailWorkLAbel.Size = new Size(118, 25);
-            mailWorkLAbel.TabIndex = 6;
-            mailWorkLAbel.Text = "E-Mail (Work)";
-            // 
-            // mailPrivateLabel
-            // 
-            mailPrivateLabel.AutoSize = true;
-            mailPrivateLabel.Location = new Point(16, 198);
-            mailPrivateLabel.Name = "mailPrivateLabel";
-            mailPrivateLabel.Size = new Size(129, 25);
-            mailPrivateLabel.TabIndex = 7;
-            mailPrivateLabel.Text = "E-Mail (Private)";
-            // 
-            // workMailInputAdd
-            // 
-            workMailInputAdd.BorderStyle = BorderStyle.FixedSingle;
-            workMailInputAdd.Location = new Point(189, 148);
-            workMailInputAdd.Name = "workMailInputAdd";
-            workMailInputAdd.Size = new Size(319, 31);
-            workMailInputAdd.TabIndex = 8;
-            // 
-            // privateMailInputAdd
-            // 
-            privateMailInputAdd.BorderStyle = BorderStyle.FixedSingle;
-            privateMailInputAdd.Location = new Point(189, 198);
-            privateMailInputAdd.Name = "privateMailInputAdd";
-            privateMailInputAdd.Size = new Size(319, 31);
-            privateMailInputAdd.TabIndex = 9;
-            // 
             // addressBoxAdd
             // 
             addressBoxAdd.Controls.Add(countrySelectionAdd);
@@ -206,6 +206,15 @@
             addressBoxAdd.TabIndex = 10;
             addressBoxAdd.TabStop = false;
             addressBoxAdd.Text = "Address";
+            // 
+            // countrySelectionAdd
+            // 
+            countrySelectionAdd.DropDownStyle = ComboBoxStyle.DropDownList;
+            countrySelectionAdd.FormattingEnabled = true;
+            countrySelectionAdd.Location = new Point(189, 198);
+            countrySelectionAdd.Name = "countrySelectionAdd";
+            countrySelectionAdd.Size = new Size(319, 33);
+            countrySelectionAdd.TabIndex = 9;
             // 
             // zipCodeIpnutAdd
             // 
@@ -267,15 +276,6 @@
             streetAddLabel.TabIndex = 2;
             streetAddLabel.Text = "Street";
             // 
-            // countrySelectionAdd
-            // 
-            countrySelectionAdd.DropDownStyle = ComboBoxStyle.DropDownList;
-            countrySelectionAdd.FormattingEnabled = true;
-            countrySelectionAdd.Location = new Point(189, 198);
-            countrySelectionAdd.Name = "countrySelectionAdd";
-            countrySelectionAdd.Size = new Size(319, 33);
-            countrySelectionAdd.TabIndex = 9;
-            // 
             // confrimAddButton
             // 
             confrimAddButton.Location = new Point(121, 788);
@@ -284,6 +284,7 @@
             confrimAddButton.TabIndex = 11;
             confrimAddButton.Text = "OK";
             confrimAddButton.UseVisualStyleBackColor = true;
+            confrimAddButton.Click += AddCustomer;
             // 
             // cancelAddButton
             // 
@@ -307,6 +308,7 @@
             Name = "AddForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Add New Customer";
+            Load += AddForm_Load;
             nameBoxAdd.ResumeLayout(false);
             nameBoxAdd.PerformLayout();
             contactBoxAdd.ResumeLayout(false);

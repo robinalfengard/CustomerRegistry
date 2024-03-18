@@ -6,5 +6,11 @@ namespace Assignment5Robin_Alfengård
         {
             InitializeComponent();
         }
+
+        private void LoadMainForm(object sender, EventArgs e)
+        {
+            AddForm addForm = new AddForm();
+            addForm.ShowDialog();
+        }
     }
 }
