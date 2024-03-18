@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment5Robin_Alfengård.ContactFiles
 {
-    internal class Contact
+    public class Contact
     {
         private Address address;
         private Email email;

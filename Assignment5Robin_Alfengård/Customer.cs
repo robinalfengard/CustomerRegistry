@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Assignment5Robin_Alfengård
 {
-    internal class Customer
+    public class Customer
     {
         Contact contact;
 
