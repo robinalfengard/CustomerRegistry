@@ -152,7 +152,7 @@
             Controls.Add(listviewContactInfo);
             Name = "OverViewForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Customer Manager";
             Load += OverViewForm_Load;
             ResumeLayout(false);
             PerformLayout();

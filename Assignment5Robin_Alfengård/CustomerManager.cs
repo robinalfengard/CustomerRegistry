@@ -16,12 +16,12 @@ namespace Assignment5Robin_Alfengård
             customerList = new List<Customer>();    
         }   
 
-        public void addCustomer(Customer customer)
+        public void AddCustomer(Customer customer)
         {
             customerList.Add(customer);
         }
 
-        public void removeCustomer(Customer customer)
+        public void RemoveCustomer(Customer customer)
         {
             customerList.Remove(customer);
         }
@@ -30,8 +30,8 @@ namespace Assignment5Robin_Alfengård
             return customerList;
         }
 
-        public Customer getCustomerByIndex(int id)
-        {
+        public Customer GetCustomerById(int id)
+        {      
            foreach (Customer customer in customerList)
             {
                 if(customer.Id == id) return customer;
@@ -39,15 +39,23 @@ namespace Assignment5Robin_Alfengård
             throw new ArgumentException("Customer not found");   
         }
 
-        public int getIndexOfCustomer(Customer customer)
+        public int GetIndexOfCustomer(Customer customer)
         {
             return customerList.IndexOf(customer);
         }
 
-        public void deleteCustomerByIndex(int v)
+        public void DeleteCustomerById(int id)
         {
-            customerList.RemoveAt(v);
+            Customer customerToDelete = null;
+            foreach(Customer customer in customerList)
+            {
+                if(customer.Id == id)
+                    customerToDelete = customer;
+            }
+            customerList.Remove(customerToDelete);
         }
+
+
     }
 
 

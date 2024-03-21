@@ -4,21 +4,24 @@ namespace Assignment5Robin_Alfengård
     {
 
         private CustomerManager customerManager = new CustomerManager();
+        private int INDEXADJUSTER = -1;
         public OverViewForm()
         {
             InitializeComponent();
             UpdateListOfCustomers();
+
         }
 
-
+        // Method to register click on add button and open add form
         private void LoadAddCustomerFormClick(object sender, EventArgs e)
         {
-            AddForm addForm = new AddForm(customerManager, this);
-            addForm.ShowDialog();
+            ContactForm addForm = new ContactForm(customerManager);
+            if (addForm.ShowDialog() == DialogResult.OK)
+                UpdateListOfCustomers(); 
         }
 
 
-
+        // Method to update list of customers
         public void UpdateListOfCustomers()
         {
             listviewContactInfo.Items.Clear();
@@ -35,23 +38,7 @@ namespace Assignment5Robin_Alfengård
             }
         }
 
-
-
-
-
-        // Format helper method
-        private string StringToBeAddedinListBox(string indexOfCustomer, string lastName, string firstName, string officePhone, string officeEmail)
-        {
-            return String.Format("{0,-30} {1,-43} {2,30} {3, 45}  ", indexOfCustomer, lastName + ", " + firstName, officePhone, officeEmail);
-        }
-
-        private void OverViewForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
-
+        // Method to register click on customer in list and send captured customer on to ShowExpandedCustomerInfo method
         private void ShowExpandedCustomerInfoOnClick(object sender, MouseEventArgs e)
         {
             ListViewItem selectedItem = listviewContactInfo.SelectedItems[0];
@@ -60,10 +47,11 @@ namespace Assignment5Robin_Alfengård
             int.TryParse(index, out numericIndex);
 
             if (numericIndex != -1)
-                ShowExpandedCustomerInfo(customerManager.getCustomerByIndex(numericIndex - 1));
+                ShowExpandedCustomerInfo(customerManager.GetCustomerById(numericIndex + INDEXADJUSTER));
 
         }
 
+        // Method to show expanded info of customer when selected in list
         private void ShowExpandedCustomerInfo(Customer? customer)
         {
             ExpandedCustomerInfoTextBox.Clear();
@@ -88,6 +76,7 @@ namespace Assignment5Robin_Alfengård
             }
         }
 
+        // Method to register click on delete button and send captured customer on to delete method 
         private void DeleteCustomerClick(object sender, EventArgs e)
         {
             ListViewItem selectedItem = null;
@@ -98,7 +87,7 @@ namespace Assignment5Robin_Alfengård
                 int numericIndex = -1;
                 int.TryParse(index, out numericIndex);
                 if (numericIndex != -1)
-                    customerManager.deleteCustomerByIndex(numericIndex - 1);
+                    customerManager.DeleteCustomerById(numericIndex + INDEXADJUSTER);
                 UpdateListOfCustomers();
                 ClearCustomerExpandedInfo();
             }
@@ -108,12 +97,13 @@ namespace Assignment5Robin_Alfengård
             }
 
         }
-
+        // Method to clear expanded info about customer
         private void ClearCustomerExpandedInfo()
         {
             ExpandedCustomerInfoTextBox.Clear();
         }
-
+        
+        // Method to register click on edit button and send captured customer on to edit method 
         private void EditCustomerClick(object sender, EventArgs e)
         {
             ListViewItem selectedItem = null;
@@ -122,20 +112,30 @@ namespace Assignment5Robin_Alfengård
                 Customer customerToEdit = null;
                 selectedItem = listviewContactInfo.SelectedItems[0];
                 string index = selectedItem.Text.Substring(0, 9).Trim();
-                int numericIndex = -1;
-                int.TryParse(index, out numericIndex);
-                if (numericIndex != -1)
+                int idOfCustomer = -1;
+                int.TryParse(index, out idOfCustomer);
+                if (idOfCustomer != -1)
                 {
-                    customerToEdit = customerManager.getCustomerByIndex(numericIndex - 1);
-                    EditForm editForm = new EditForm(customerToEdit, this);
-                    editForm.ShowDialog();
+                    ContactForm editForm = new ContactForm(customerManager, customerManager.GetCustomerById(idOfCustomer + INDEXADJUSTER));
+                    if (editForm.ShowDialog() == DialogResult.OK)
+                        UpdateListOfCustomers();
                 }
-                else
-                {
-                    MessageBox.Show("You Must Select a Customer to Edit");
-                }
-
             }
+            else
+            {
+                MessageBox.Show("You Must Select a Customer to Edit");
+            }
+        }
+
+         //Format helper method
+        private string StringToBeAddedinListBox(string indexOfCustomer, string lastName, string firstName, string officePhone, string officeEmail)
+        {
+            return String.Format("{0,-30} {1,-43} {2,30} {3, 45}  ", indexOfCustomer, lastName + ", " + firstName, officePhone, officeEmail);
+        }
+
+        private void OverViewForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
