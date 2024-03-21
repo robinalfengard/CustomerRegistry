@@ -1,6 +1,6 @@
 ﻿namespace Assignment5Robin_Alfengård
 {
-    partial class AddForm
+    partial class ContactForm
     {
         /// <summary>
         /// Required designer variable.
@@ -278,25 +278,27 @@
             // 
             // confrimAddButton
             // 
+            confrimAddButton.DialogResult = DialogResult.OK;
             confrimAddButton.Location = new Point(121, 788);
             confrimAddButton.Name = "confrimAddButton";
             confrimAddButton.Size = new Size(202, 34);
             confrimAddButton.TabIndex = 11;
             confrimAddButton.Text = "OK";
             confrimAddButton.UseVisualStyleBackColor = true;
-            confrimAddButton.Click += AddCustomer;
+            confrimAddButton.Click += OKButtonClick;
             // 
             // cancelAddButton
             // 
+            cancelAddButton.DialogResult = DialogResult.Cancel;
             cancelAddButton.Location = new Point(402, 788);
             cancelAddButton.Name = "cancelAddButton";
             cancelAddButton.Size = new Size(202, 34);
             cancelAddButton.TabIndex = 12;
             cancelAddButton.Text = "Cancel";
             cancelAddButton.UseVisualStyleBackColor = true;
-            cancelAddButton.Click += CancelAddClick;
+            cancelAddButton.Click += CancelClick;
             // 
-            // AddForm
+            // ContactForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -306,10 +308,10 @@
             Controls.Add(addressBoxAdd);
             Controls.Add(contactBoxAdd);
             Controls.Add(nameBoxAdd);
-            Name = "AddForm";
+            Name = "ContactForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Add New Customer";
-            Load += AddForm_Load;
+            Load += ContactForm_Load;
             nameBoxAdd.ResumeLayout(false);
             nameBoxAdd.PerformLayout();
             contactBoxAdd.ResumeLayout(false);

@@ -58,6 +58,15 @@ namespace Assignment5Robin_Alfengård.ContactFiles
             set { lastName = value; }
         }
 
+        public bool CheckData()
+        {
+            return false;
+        }
 
+        internal bool CheckData(string firstname, string lastName, string city)
+        {
+            if (!String.IsNullOrEmpty(city) && (!String.IsNullOrEmpty(lastName) || !String.IsNullOrEmpty(firstname))) return true;
+            return false;
+        }
     }
 }

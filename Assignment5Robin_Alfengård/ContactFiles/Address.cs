@@ -15,13 +15,22 @@ namespace Assignment5Robin_Alfengård.ContactFiles
         private Country country;
 
 
-        public Address(string street, string city, string zipCode, Country country)
+        public Address(string street, Country country, string zipCode, string city)
         {
             this.street = street;
             this.city = city;
             this.zipCode = zipCode;
             this.country = country;
         }
+
+        public Address(string street, string city, Country country)
+            : this(street, country, "", city) { }
+
+        public Address(string city, Country country)
+            : this("", country, "", city) { }
+
+
+
 
         public string Street
         {
