@@ -69,6 +69,7 @@ namespace Assignment5Robin_Alfengård
             {
                 customer.Contact = contact;
                 customerManager.addCustomer(customer);
+                customer.Id = customerManager.getIndexOfCustomer(customer);
                 ResetAllFields();
                 overViewForm.UpdateListOfCustomers();
             }
