@@ -26,7 +26,7 @@ namespace Assignment5Robin_Alfengård
             {
                 if (customer != null)
                 {
-                    listviewContactInfo.Items.Add(StringToBeAddedinListBox(customerManager.getIndexOfCustomer(customer) + 1.ToString(),
+                    listviewContactInfo.Items.Add(StringToBeAddedinListBox((customer.Id + 1).ToString(),
                                                                             customer.Contact.LastName,
                                                                             customer.Contact.FirstName,
                                                                             customer.Contact.Phone.PhoneNumberWork,

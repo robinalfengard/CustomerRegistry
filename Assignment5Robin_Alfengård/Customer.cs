@@ -11,6 +11,8 @@ namespace Assignment5Robin_Alfengård
     {
         private Contact contact;
 
+        private long id = 0;
+
         public Customer(Contact contact)
         {
             this.contact = contact;
@@ -28,6 +30,15 @@ namespace Assignment5Robin_Alfengård
             set
             {
                 contact = value;
+            }
+        }
+        public long Id
+        {
+            get
+            { return id; }
+            set
+            {
+                id = value;
             }
         }
     }

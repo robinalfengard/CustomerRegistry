@@ -32,7 +32,11 @@ namespace Assignment5Robin_Alfengård
 
         public Customer getCustomerByIndex(int id)
         {
-            return customerList[id];
+           foreach (Customer customer in customerList)
+            {
+                if(customer.Id == id) return customer;
+            }
+            throw new ArgumentException("Customer not found");   
         }
 
         public int getIndexOfCustomer(Customer customer)
