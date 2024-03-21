@@ -40,8 +40,10 @@ namespace Assignment5Robin_Alfengård
             return customerList.IndexOf(customer);
         }
 
-
-
+        public void deleteCustomerByIndex(int v)
+        {
+            customerList.RemoveAt(v);
+        }
     }
 
 

@@ -9,7 +9,7 @@ namespace Assignment5Robin_Alfengård
 {
     public class Customer
     {
-        Contact contact;
+        private Contact contact;
 
         public Customer(Contact contact)
         {

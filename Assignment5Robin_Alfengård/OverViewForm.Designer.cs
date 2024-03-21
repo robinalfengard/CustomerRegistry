@@ -113,6 +113,7 @@
             deleteButton.TabIndex = 7;
             deleteButton.Text = "Delete";
             deleteButton.UseVisualStyleBackColor = true;
+            deleteButton.Click += DeleteCustomerClick;
             // 
             // contactDetailsLabel
             // 
