@@ -17,6 +17,8 @@ namespace Assignment5Robin_Alfengård
             addForm.ShowDialog();
         }
 
+
+
         public void UpdateListOfCustomers()
         {
             listviewContactInfo.Items.Clear();
@@ -28,7 +30,7 @@ namespace Assignment5Robin_Alfengård
                                                                             customer.Contact.LastName,
                                                                             customer.Contact.FirstName,
                                                                             customer.Contact.Phone.PhoneNumberWork,
-                                                                            customer.Contact.Email.Work)); 
+                                                                            customer.Contact.Email.Work));
                 }
             }
         }
@@ -48,10 +50,7 @@ namespace Assignment5Robin_Alfengård
 
         }
 
-        private void listviewContactInfo_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
 
         private void ShowExpandedCustomerInfoOnClick(object sender, MouseEventArgs e)
         {
@@ -62,14 +61,14 @@ namespace Assignment5Robin_Alfengård
 
             if (numericIndex != -1)
                 ShowExpandedCustomerInfo(customerManager.getCustomerByIndex(numericIndex - 1));
-            
+
         }
 
         private void ShowExpandedCustomerInfo(Customer? customer)
         {
             ExpandedCustomerInfoTextBox.Clear();
 
-            if(customer != null)
+            if (customer != null)
             {
                 ExpandedCustomerInfoTextBox.Text =
                                                 customer.Contact.FirstName + " " + customer.Contact.LastName + Environment.NewLine +
@@ -82,10 +81,36 @@ namespace Assignment5Robin_Alfengård
                                                 Environment.NewLine + "Phone Numbers" + Environment.NewLine +
                                                 "Private: " + customer.Contact.Phone.PhoneNumberHome + Environment.NewLine +
                                                 "Office: " + customer.Contact.Phone.PhoneNumberWork;
-            } else
-            {
-                MessageBox.Show("Customer is null");            
             }
+            else
+            {
+                MessageBox.Show("Customer is null");
+            }
+        }
+
+        private void DeleteCustomerClick(object sender, EventArgs e)
+        {
+            ListViewItem selectedItem = null;
+            if(listviewContactInfo.SelectedItems.Count > 0) {
+                selectedItem = listviewContactInfo.SelectedItems[0];
+                string index = selectedItem.Text.Substring(0, 9).Trim();
+                int numericIndex = -1;
+                int.TryParse(index, out numericIndex);
+                if (numericIndex != -1)
+                    customerManager.deleteCustomerByIndex(numericIndex - 1);
+                UpdateListOfCustomers();
+                ClearCustomerExpandedInfo();
+            }
+            else
+            {
+                MessageBox.Show("Must Select a Customer to Delete");
+            }
+     
+        }
+
+        private void ClearCustomerExpandedInfo()
+        {
+            ExpandedCustomerInfoTextBox.Clear();
         }
     }
 }
