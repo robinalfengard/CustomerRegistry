@@ -91,7 +91,8 @@ namespace Assignment5Robin_Alfengård
         private void DeleteCustomerClick(object sender, EventArgs e)
         {
             ListViewItem selectedItem = null;
-            if(listviewContactInfo.SelectedItems.Count > 0) {
+            if (listviewContactInfo.SelectedItems.Count > 0)
+            {
                 selectedItem = listviewContactInfo.SelectedItems[0];
                 string index = selectedItem.Text.Substring(0, 9).Trim();
                 int numericIndex = -1;
@@ -103,14 +104,38 @@ namespace Assignment5Robin_Alfengård
             }
             else
             {
-                MessageBox.Show("Must Select a Customer to Delete");
+                MessageBox.Show("You Must Select a Customer to Delete");
             }
-     
+
         }
 
         private void ClearCustomerExpandedInfo()
         {
             ExpandedCustomerInfoTextBox.Clear();
+        }
+
+        private void EditCustomerClick(object sender, EventArgs e)
+        {
+            ListViewItem selectedItem = null;
+            if (listviewContactInfo.SelectedItems.Count > 0)
+            {
+                Customer customerToEdit = null;
+                selectedItem = listviewContactInfo.SelectedItems[0];
+                string index = selectedItem.Text.Substring(0, 9).Trim();
+                int numericIndex = -1;
+                int.TryParse(index, out numericIndex);
+                if (numericIndex != -1)
+                {
+                    customerToEdit = customerManager.getCustomerByIndex(numericIndex - 1);
+                    EditForm editForm = new EditForm(customerToEdit, this);
+                    editForm.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("You Must Select a Customer to Edit");
+                }
+
+            }
         }
     }
 }

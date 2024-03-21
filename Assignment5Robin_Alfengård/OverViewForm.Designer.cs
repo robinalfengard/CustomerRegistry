@@ -104,6 +104,7 @@
             editButton.TabIndex = 6;
             editButton.Text = "Edit";
             editButton.UseVisualStyleBackColor = true;
+            editButton.Click += EditCustomerClick;
             // 
             // deleteButton
             // 

@@ -294,6 +294,7 @@
             cancelAddButton.TabIndex = 12;
             cancelAddButton.Text = "Cancel";
             cancelAddButton.UseVisualStyleBackColor = true;
+            cancelAddButton.Click += CancelAddClick;
             // 
             // AddForm
             // 
