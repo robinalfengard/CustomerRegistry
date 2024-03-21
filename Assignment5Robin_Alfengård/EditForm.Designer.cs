@@ -66,6 +66,7 @@
             cancelEditButton.TabIndex = 17;
             cancelEditButton.Text = "Cancel";
             cancelEditButton.UseVisualStyleBackColor = true;
+            cancelEditButton.Click += CancelEditClick;
             // 
             // confrimEditButton
             // 
@@ -75,6 +76,7 @@
             confrimEditButton.TabIndex = 16;
             confrimEditButton.Text = "OK";
             confrimEditButton.UseVisualStyleBackColor = true;
+            confrimEditButton.Click += AcceptChangesClick;
             // 
             // addressBoxEdit
             // 
